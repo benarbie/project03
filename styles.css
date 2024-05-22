@@ -1,0 +1,100 @@
+/* Main Elements */
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+#main {
+    margin: 30px 3px;
+    height: fit-content;
+    width: 98.4vw;
+    background-color: rgb(241, 241, 241);
+}
+/* Misc. */
+.bold {
+    font-weight: 700;
+    color: black;
+}
+/* Header */
+.header {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(35, 35, 35)
+}
+/* Image */
+#img-div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    height: 700px;
+    max-height: 750px;
+    min-width: 300px;
+    max-width: 98vw;
+    margin: 0 15px;
+}
+#image {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+#img-caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+/* Info */
+#info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    max-height: fit-content;
+    border: none;
+    margin: 0 auto;
+    max-width: 700px;
+}
+#info > legend {
+    margin: 0 auto;
+    margin-bottom: -25px;
+    padding-top: 60px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#years {
+    max-width: 700px;
+    margin-left: -20px;
+}
+#years li {
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2;
+    font-size: 16px;
+    color: rgb(35, 35, 35);
+}
+#quote {
+    color: rgb(35, 35, 35);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    max-width: 700px;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+#author {
+    color: rgb(35, 35, 35);
+    font-style: italic;
+    line-height: 1.5;
+    max-width: 700px;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+#source {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+
